@@ -1,0 +1,26 @@
+version: '3.4'
+
+services:
+########################################################## microservices.demo.policy.db ##################################################################################
+  seq:
+    container_name: seq
+    image: datalust/seq:latest
+    restart: unless-stopped
+    ports:
+      - 8085:80
+      - 5341:5341
+    volumes:
+      - ./Data:/data
+    environment:
+      - SEQ_FIRSTRUN_ADMINUSERNAME="admin"
+      #- SEQ_FIRSTRUN_ADMINPASSWORDHASH="$PH"
+      - SEQ_FIRSTRUN_REQUIREAUTHTENTICATIONFORHTTPINGESTION=True
+      - ACCEPT_EULA=Y    
+    networks:
+      - backend
+########################################################## networks #######################################################################################################
+networks:
+  backend:
+    name: backend
+    driver: bridge
+

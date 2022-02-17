@@ -1,0 +1,99 @@
+﻿{
+   "CodeGenerationMode": 0,
+   "ContextClassName": "ProyalumnoContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": "Contexts",
+   "OutputPath": "Entities",
+   "ProjectRootNamespace": "Net5.Rest.Infrastructure.Data",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Course]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CourseInstructor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Department]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OfficeAssignment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OnlineCourse]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OnsiteCourse]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Person]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[StudentGrade]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DeleteOfficeAssignment]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[DeletePerson]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[GetDepartmentName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[GetStudentGrades]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[InsertOfficeAssignment]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[InsertPerson]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[UpdateOfficeAssignment]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[UpdatePerson]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": "PC-DE-JD.ProyAlumno",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}
